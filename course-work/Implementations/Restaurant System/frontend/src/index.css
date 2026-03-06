@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Optional base styles */
+body {
+  @apply antialiased text-gray-900;
+}
+
+/* Component classes */
+@reference {
+  .antialiased {}
+  .text-gray-900 {}
+  .bg-blue-500 {}
+  .text-white {}
+  .px-4 {}
+  .py-2 {}
+  .rounded-lg {}
+  .hover\:bg-blue-600 {}
+  .transition-colors {}
+  .bg-gray-200 {}
+  .text-gray-800 {}
+  .hover\:bg-gray-300 {}
+  .bg-red-500 {}
+  .hover\:bg-red-600 {}
+  .bg-white {}
+  .shadow-md {}
+  .p-6 {}
+  .border {}
+  .border-gray-300 {}
+  .rounded-md {}
+  .py-2 {}
+  .px-3 {}
+  .focus\:outline-none {}
+  .focus\:ring-2 {}
+  .focus\:ring-blue-500 {}
+  .block {}
+  .text-sm {}
+  .font-medium {}
+  .text-gray-700 {}
+  .mb-1 {}
+}
+
+/* Buttons */
+.btn-primary {
+  @apply bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors;
+}
+
+/* Card */
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+/* Form */
+.input {
+  @apply border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.label {
+  @apply block text-sm font-medium text-gray-700 mb-1;
+}
